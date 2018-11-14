@@ -1,0 +1,12 @@
+- pwd : Current directory  
+- ls : List contents of directory  
+- cd : Change current location to specified directory  
+- alias : To create a custom command mapped internally to other commands  
+- mkdir : Make directory  
+- rm : Remove files  
+- less : View contents of a file  
+- help : View help for given command  
+- ln : Create symbolic or hard links  
+- mv : Move or rename the file  
+- cp : Copy file(s) from one place to another  
+- clear : Clears the console output
