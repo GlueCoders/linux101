@@ -9,4 +9,17 @@
 - ln : Create symbolic or hard links  
 - mv : Move or rename the file  
 - cp : Copy file(s) from one place to another  
-- clear : Clears the console output
+- clear : Clears the console output  
+- type : Tells the type of the command  
+- cat : Concatenates content of files, can also be used to make short files from stdin  
+- wc : Word count, lines in a file  
+- head : First few lines of a file    
+- tail : Last  few lines of a file or continuous monitoring using -f option  
+- grep : Search for patterns  
+- /dev/null : File which does nothing with the input it gets    
+- ">" : Redirection mostly for writing files    
+- " | " : Pipe character to make one command's output as input of next command  
+- " &>" : To redirect stderr and stdin to same file  
+- sort : To sort the input  
+- uniq : To deduplicate the input  
+  
