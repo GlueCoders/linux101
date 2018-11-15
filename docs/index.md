@@ -22,4 +22,8 @@
 - " &>" : To redirect stderr and stdin to same file  
 - sort : To sort the input  
 - uniq : To deduplicate the input  
-  
+- echo : To display text given in argument on console, also does the expansion  
+- printenv : Prints environment variables  
+- file : To check file type  
+- which : To check command location  
+
