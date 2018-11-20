@@ -20,8 +20,8 @@
 - grep : Search for patterns  
 - /dev/null : File which does nothing with the input it gets    
 - ">" : Redirection mostly for writing files    
-- "|" : Pipe character to make one command's output as input of next command  
-- " &>" : To redirect stderr and stdin to same file  
+- "\|" : Pipe character to make one command's output as input of next command  
+- "&>" : To redirect stderr and stdin to same file  
 - sort : To sort the input  
 - uniq : To deduplicate the input  
 - echo : To display text given in argument on console, also does the expansion  
