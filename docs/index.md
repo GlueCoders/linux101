@@ -1,3 +1,5 @@
+[Expansions](/expansions.md)
+
 - pwd : Current directory  
 - ls : List contents of directory  
 - cd : Change current location to specified directory  
@@ -26,4 +28,4 @@
 - printenv : Prints environment variables  
 - file : To check file type  
 - which : To check command location  
-
+- lsb_release : To check Linux distribution  
