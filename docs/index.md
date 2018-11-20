@@ -1,4 +1,4 @@
-[Expansions](/expansions.md)
+[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)
 
 - pwd : Current directory  
 - ls : List contents of directory  
