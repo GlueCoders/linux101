@@ -81,7 +81,7 @@ $ echo "$USER will expand"
 
 ### Escaping
 
-"\" can be used to escape expansions in double quotes as shown below:  
+"\\" can be used to escape expansions in double quotes as shown below:  
 
 ```bash
 $ echo "The balance for user $USER is : $5.00"
