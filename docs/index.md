@@ -1,4 +1,4 @@
-[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)
+[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)
 
 - pwd : Current directory  
 - ls : List contents of directory  
@@ -29,3 +29,12 @@
 - file : To check file type  
 - which : To check command location  
 - lsb_release : To check Linux distribution  
+- chdmod : To change file permissions  
+- sudo : To execute command as different user  
+- chown : To change file owner and group  
+- ps : To check current machine state in terms of processes  
+- top : A lot like ps only keeps on refreshing the output on the basis of process usage  <TODO>  
+- fg : To start a process in foreground  
+- bg : To send a foreground job to background  
+- xlogo : Opens a X displaying terminal, redraws X when window is resized  
+- 
