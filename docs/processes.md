@@ -65,7 +65,7 @@ Following signals can be issued to processes using `kill` command.
 |------|----|-------|
 |1|HUP|Hangup. Used by many daemon programs to cause a reinitialization.|
 |2|INT|Interrupt, terminates the program|
-|9|KILL|Kills the program, this signal does not goes to the actual process but to th kernel which closes the process. Should be used as last resort to terminate processes.|
+|9|KILL|Kills the program, this signal does not goes to the actual process but to the kernel which closes the process. Should be used as last resort to terminate processes.|
 |15|TERM|Terminate, default signal sent to processes when kill command is used|
 |18|CONT|Continue, restores the process if it was stopped with a STOP signal|
 |19|STOP|Stop, causes program to pause without terminating. This signal is sent to kernel and not to the process|
