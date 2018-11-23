@@ -62,6 +62,7 @@ The terminal will wait for signal and until that will not accept any other comma
 Following signals can be issued to processes using `kill` command.  
 
 |Number|Name|Meaning|
+|------|----|-------|
 |1|HUP|Hangup. Used by many daemon programs to cause a reinitialization.|
 |2|INT|Interrupt, terminates the program|
 |9|KILL|Kills the program, this signal does not goes to the actual process but to th kernel which closes the process. Should be used as last resort to terminate processes.|
