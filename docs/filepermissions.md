@@ -43,5 +43,4 @@ The first attribute is the file type. Rest 9 attributes are permissions for the 
 |    4      |    r--   |
 |    5      |    r-x   |
 |    6      |    rw-   |
-|    7      |    rwx   |  
-
+|    7      |    rwx   |
