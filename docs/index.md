@@ -1,4 +1,4 @@
-[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)
+[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)		[Vi(m)](/vim.md)
 
 - pwd : Current directory  
 - ls : List contents of directory  
