@@ -1,3 +1,5 @@
+[Home](/index.html "Home")  
+
 # Vi(m) editor  
 
 Vim can be accessed by `vi` command.
@@ -31,4 +33,4 @@ If foo.txt is saved from vi then it will created.
 ## Save / Undo  
 ## Cut Copy Paste using single file  
 ## Open multiple files  
-## Cut Copy Paste using multiple files  
+## Cut Copy Paste using multiple files
