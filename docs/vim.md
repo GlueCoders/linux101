@@ -32,5 +32,6 @@ If foo.txt is saved from vi then it will created.
 ## Edit a file  
 ## Save / Undo  
 ## Cut Copy Paste using single file  
+## Search and Replace  
 ## Open multiple files  
 ## Cut Copy Paste using multiple files
