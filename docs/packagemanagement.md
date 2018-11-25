@@ -85,7 +85,7 @@ $ rpm -qf file_name
 
 ### Listing all installed packages  
 
-``bash
+```bash
 $ dpkg --list
 ```  
 
