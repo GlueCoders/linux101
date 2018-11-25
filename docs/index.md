@@ -29,7 +29,7 @@
 - file : To check file type  
 - which : To check command location  
 - lsb_release : To check Linux distribution  
-- chdmod : To change file permissions  
+- chmod : To change file permissions  
 - sudo : To execute command as different user  
 - chown : To change file owner and group  
 - ps : To check current machine state in terms of processes  
