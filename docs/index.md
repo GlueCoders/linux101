@@ -1,4 +1,4 @@
-[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)		[Vi(m)](/vim.md)
+[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)		[Vi(m)](/vim.md)		[Package Management](/packagemanagement.md)
 
 - pwd : Current directory  
 - ls : List contents of directory  
@@ -43,4 +43,4 @@
 - tload : Graph in terminal to show system load  
 - gedit : Launches the text editor  
 - nano : Launches nano editor  
-- vi : Launches vi editor  
+- vi : Launches vi editor
