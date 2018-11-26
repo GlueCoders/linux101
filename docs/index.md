@@ -44,3 +44,12 @@
 - gedit : Launches the text editor  
 - nano : Launches nano editor  
 - vi : Launches vi editor
+- set : To set environment variables  
+- export : To set environment variables  
+- unset : To clear local session values  
+- env : Prints all environment variables  
+- ifconfig : Prints ip configuration  
+- ping : Pings given host to check for connectivity  
+- traceroute : Traces the route to given host by identifying all the network hops  
+- 
+  
