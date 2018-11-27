@@ -50,6 +50,15 @@
 - env : Prints all environment variables  
 - ifconfig : Prints ip configuration  
 - ping : Pings given host to check for connectivity  
-- traceroute : Traces the route to given host by identifying all the network hops  
+- traceroute / tracepath : Traces the route to given host by identifying all the network hops  
+- netstat : To check network connections  
+- ftp : Utility to transfer files using ftp protocol  
+- ssh : Utility to connect to remote host over secured connection  
+- sftp : FTP over secured protocol   
+- scp : Utility to copy files from remote to local  
+- touch : To update last accessed timestamp, or if given filename is non existent then it creates file  
+- locate : Searches for filename from path database  
+- updatedb : Updates the path database with new paths added  
+- find : Finds the files or directories according to numerous options available  
 - 
   
