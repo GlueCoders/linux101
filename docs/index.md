@@ -60,5 +60,5 @@
 - locate : Searches for filename from path database  
 - updatedb : Updates the path database with new paths added  
 - find : Finds the files or directories according to numerous options available  
-- 
+- stat : Shows file statistics  
   
