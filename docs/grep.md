@@ -23,7 +23,7 @@ Syntax : `grep [options] regex [file...]`
 
 |Metacharacter|Meaning|
 |-------------|-------|
-| \^ | Anchor, matches regex if it occurs at start. If present in brackets then it means negation |
+| ^ | Anchor, matches regex if it occurs at start. If present in brackets then it means negation |
 | $ | Anchor, matches regex if it occurs at end |
 | \[] | To give a set of characters to match from, also makes metacharacters to be treated as literals |
 | \{} | To express minimum and maximum  number of matches required {n,m} |
@@ -31,7 +31,7 @@ Syntax : `grep [options] regex [file...]`
 | \\ | To escape a character with special meaning|
 | \| | Alternation, gives options of patterns to match from|
 | \- | If present in brackets then it defines range|
-| \? | Quantifier, match zero or one time|
+| ? | Quantifier, match zero or one time|
 | \* | Quantifier, match zero or more times|
 | \+ | Quantifier, match one or more times|  
 
