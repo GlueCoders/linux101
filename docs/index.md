@@ -1,4 +1,4 @@
-[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)		[Vi(m)](/vim.md)		[Package Management](/packagemanagement.md)
+[Expansions](/expansions.md)		[File Permissions](/filepermissions.md)		[Processes](/processes.md)		[Vi(m)](/vim.md)		[Package Management](/packagemanagement.md)		[Grep](/grep.md)
 
 - pwd : Current directory  
 - ls : List contents of directory  
@@ -60,5 +60,4 @@
 - locate : Searches for filename from path database  
 - updatedb : Updates the path database with new paths added  
 - find : Finds the files or directories according to numerous options available  
-- stat : Shows file statistics  
-  
+- stat : Shows file statistics
