@@ -94,5 +94,10 @@ To paste above the current line, capital P : `P`
 To join lines captial j is used : `J`.  
 
 ## Search and Replace  
+
+To search a character in the current line `f` command is used. To search for let's say `a` in the current line type `fa`. The cursor will move to next occurrence of a in the line. To continue searching type `;` (semicolon). Note `f` works only for current line and not whole file.  
+
+To search for a word or phrase in whole file `\` is used. After typing `\` type the phrase to be searched. The phrase could also be a regex pattern. The cursor will move to the next occurrence of the found pattern, type `n` to move the next occurrence. 
+
 ## Open multiple files  
 ## Cut Copy Paste using multiple files
