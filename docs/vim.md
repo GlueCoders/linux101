@@ -65,7 +65,7 @@ After doing changes in file, press `ESC` and then write `:w`. This will save the
 
 ## Deleting  
 
-There are two keywords which are used for deletion in vim: `x` and `d`. `x` deletes one character at a time, and can be preceeded with a number to denote how many characters should be deleted for eg `3x`, `2x`. Pressing `x` multiple times also work. `d` is more general purpose deletion command. `dd` deletes a single line, and it can be preceeded with a number to denote how many lines should be deleted like `3dd` will delete the current and next two lines. `d` can also be suffixed with cursor movement characters (listed in table under Cursor movement heading) to delete a chunk of file. Following are some examples:  
+There are two keywords which are used for deletion in vim: `x` and `d`. `x` deletes one character at a time, and can be preceeded with a number to denote how many characters should be deleted for eg `3x`, `2x`. Pressing `x` multiple times also work. `d` is more general purpose deletion command, also acts like `cut` operation hat keeps text in buffer. `dd` deletes a single line, and it can be preceeded with a number to denote how many lines should be deleted like `3dd` will delete the current and next two lines. `d` can also be suffixed with cursor movement characters (listed in table under Cursor movement heading) to delete a chunk of file. Following are some examples:  
 
 | Command | Deletes |
 |---------|---------|
