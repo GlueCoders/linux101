@@ -97,7 +97,31 @@ To join lines captial j is used : `J`.
 
 To search a character in the current line `f` command is used. To search for let's say `a` in the current line type `fa`. The cursor will move to next occurrence of a in the line. To continue searching type `;` (semicolon). Note `f` works only for current line and not whole file.  
 
-To search for a word or phrase in whole file `\` is used. After typing `\` type the phrase to be searched. The phrase could also be a regex pattern. The cursor will move to the next occurrence of the found pattern, type `n` to move the next occurrence. 
+To search for a word or phrase in whole file `\` is used. After typing `\` type the phrase to be searched. The phrase could also be a regex pattern. The cursor will move to the next occurrence of the found pattern, type `n` to move the next occurrence.  
+
+To search and replace globally, use `:%s/searchtext/replacetext/g`. Lets breakdown this command:  
+
+|Item|Meaning|
+|----|-------|
+| : | Starts ex command|
+| % | Specifies the range of lines for the operation. % denotes whole file.Alternatively the range can be specified as 1,5 or 1,$. If no range is given then operations takes place on current line|
+| /searchtext| The phrase to be searched|
+| /replacetext| The phrase which will replace search candidates|
+| g | global indicator, indicating that operation should take place on every instance of search found. If `g` is not given then only first instance is changed|  
+
+For confirmation on every replacement operation `gc` can be given at the end. It prompts following values:  
+
+|Key|Action|
+|---|------|
+| y | Perform the substitution|
+| n | Skip this instance|
+| a | Perform substitution on this instance and on all the next instances|
+| q or Esc| Quit substitution|
+|  l | Perform this substituion and then exit|
+| Ctrl-e, Ctrl-y| Scroll up and down respectively|  
+
+
+
 
 ## Open multiple files  
 ## Cut Copy Paste using multiple files
