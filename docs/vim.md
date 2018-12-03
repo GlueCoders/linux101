@@ -121,7 +121,10 @@ For confirmation on every replacement operation `gc` can be given at the end. It
 | Ctrl-e, Ctrl-y| Scroll up and down respectively|  
 
 
-
-
 ## Open multiple files  
-## Cut Copy Paste using multiple files
+
+To open multiple files, just give filenames to the vi command as `vi file1.txt file2.txt`. Vi will open all the files given, the list of the files can be confirmed using `:buffers` command. To switch between files `:bufferNumber` command can be used, where `Number` is the position of file in buffers output like `buffer2`. Alternatively `n` can be used to go to next file and `N` to the previous file, `!` can be appeneded to force switch between the files. Note that if the files are added to vi afte vi was already openend then `:n` and `:N` command will not work, only `:buffer` command will work.  
+To add file to existing vi session type `:e filename` and that file will be available for editing in vi.  
+
+
+## Cut Copy Paste using multiple files  
