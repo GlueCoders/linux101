@@ -82,6 +82,17 @@ There are two keywords which are used for deletion in vim: `x` and `d`. `x` dele
 | d20G | From the current line to the 20th line of the file |  
 
 ## Cut Copy Paste using single file  
+
+To cut : `dd`  
+To copy : `yy`  
+To paste below the current line : `p`  
+To paste above the current line : `P`  
+`y` command just like `d` can be suffixed with cursor movement characters.  
+
+## Joining lines  
+
+To join lines captial j is used : `J`.  
+
 ## Search and Replace  
 ## Open multiple files  
 ## Cut Copy Paste using multiple files
