@@ -60,7 +60,7 @@ If foo.txt is saved from vi then it will created.
 
 ## Save / Undo  
 
-After doing changes in file, press `ESC` and then write `:w`. This will save the file.  
+After doing changes in file, press `ESC` and then write `:w`. This will save the file. Note if a filename is given after then it works as save as command though the file opened in the editor would still be the original file that opened.  
 `u` command is using for undo operation. Traditional `vi` supports only one undo operation whereas `vim` support multiple undo operations.  
 
 ## Deleting  
@@ -128,3 +128,5 @@ To add file to existing vi session type `:e filename` and that file will be avai
 
 
 ## Cut Copy Paste using multiple files  
+
+To cut copy paste between multiple files same `y`, `d` and `p` commands can be used. Only after copying text from one file the buffer should be switched to next file using `:buffer` command. To insert whole file in another file `:r` command is used.  
