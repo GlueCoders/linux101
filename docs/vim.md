@@ -85,8 +85,8 @@ There are two keywords which are used for deletion in vim: `x` and `d`. `x` dele
 
 To cut : `dd`  
 To copy : `yy`  
-To paste below the current line : `p`  
-To paste above the current line : `P`  
+To paste below the current line, small P : `p`  
+To paste above the current line, capital P : `P`  
 `y` command just like `d` can be suffixed with cursor movement characters.  
 
 ## Joining lines  
