@@ -38,6 +38,7 @@
 - bg : To send a foreground job to background  
 - xlogo : Opens a X displaying terminal, redraws X when window is resized  
 - pstree : Shows processes in a tree format, also showing parent and child processes  
+- kill : To kill or stop a process  
 - vmstat : Shows resource stats of the machine  
 - xload : Graphical UI to show system load  
 - tload : Graph in terminal to show system load  
