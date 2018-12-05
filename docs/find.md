@@ -34,6 +34,14 @@ In above command `find` is given `home` directory to search from and it only sea
 | -type c | Matches files of type c |
 | -user name | Matches the files or directories belonging to given user |  
 
+### Operators
+
+Operators are used to combine several tests and actions together. The operators are basically `and` , `not` and `or`. Parantheses can be added around the tests to group the tests into a larger expression. Example:  
+
+```bash
+$ find ~ \(-type f -not -perm 0600 \) -or \( -type d -not -perm 0700 \)
+```  
+
 
 
 
