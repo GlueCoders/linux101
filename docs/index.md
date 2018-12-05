@@ -17,7 +17,7 @@
 - wc : Word count, lines in a file  
 - head : First few lines of a file    
 - tail : Last  few lines of a file or continuous monitoring using -f option  
-- grep : Search for patterns  
+- [grep](/grep.md) : Search for patterns  
 - /dev/null : File which does nothing with the input it gets    
 - ">" : Redirection mostly for writing files    
 - "\|" : Pipe character to make one command's output as input of next command  
